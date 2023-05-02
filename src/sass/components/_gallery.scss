@@ -1,0 +1,31 @@
+.gallery {
+  margin: auto;
+  width: 1280px;
+  padding-top: 200px;
+  text-align: center;
+  align-items: center;
+}
+.gallery-list {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+ 
+}
+.gallery-item:hover,
+.gallery-item:focus {
+border: 1px solid blue;
+}
+
+.gallery-item {
+  padding: 30px;
+}
+.gallery-img {
+  width: 80%;
+}
+
+.gallery-title {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
